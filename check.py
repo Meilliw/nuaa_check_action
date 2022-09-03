@@ -124,7 +124,11 @@ def get_uid_id(cookies):
 def check(cookies, geo_api_info, id, uid):
     # Post的data，如果你是勇士可以尝试给这个打上注释，老谜语人了，看不懂ヾ(•ω•`)o
     data = {
-        'sfzhux': '0',
+        'fxjrcjtw':'1',
+        'sftjlkjc':'0', #十四日内是否曾途径南京禄口机场
+        'gjzsftjlkjc':'0',  #与您共同居住的人员14日内是否曾途经南京禄口机场
+        'nuaaxgymjzqk':'1', #新冠疫苗接种情况
+        'sfzhux': '0',  #是否住校
         'zhuxdz': '',
         'szgj': '',
         'szcs': '',
