@@ -125,10 +125,20 @@ def check(cookies, geo_api_info, id, uid):
     # Post的data，如果你是勇士可以尝试给这个打上注释，老谜语人了，看不懂ヾ(•ω•`)o
     data = {
         'fxjrcjtw':'1',
+        'zrwjtw':'1',
+        'jrzjtw':'1',   #今日早间体温
+        'dqsfzgfxszqs':'0',
+        'gqsfyzgfxljs':'0',
+        'gqsfyqzfhryjc':'0',
+        'sfyjwljqyhg':'0',
         'sftjlkjc':'0', #十四日内是否曾途径南京禄口机场
         'gjzsftjlkjc':'0',  #与您共同居住的人员14日内是否曾途经南京禄口机场
         'nuaaxgymjzqk':'1', #新冠疫苗接种情况
-        'sfzhux': '0',  #是否住校
+        'sfzhux': '1',  #是否住校
+        'ifcyglq':'0',  #是否处于隔离期
+        'gtjzryxcsfyc':'1',
+        'sfjkyc':'0',
+        'sfzgn':'1',
         'zhuxdz': '',
         'szgj': '',
         'szcs': '',
@@ -138,7 +148,7 @@ def check(cookies, geo_api_info, id, uid):
         'sfjcjwfh': '0',
         'sflznjcjwfh': '0',
         'sflqjkm': '4',
-        'jkmys': '1',
+        'skmcolor': '1',
         'sfjtgfxdq': '0',
         'tw': '2',
         'sfcxtz': '0',
@@ -154,7 +164,7 @@ def check(cookies, geo_api_info, id, uid):
                  + ' ' + geo_api_info['addressComponent']['district'],
         'province': geo_api_info['addressComponent']['province'],
         'city': geo_api_info['addressComponent']['city'],
-        'sfzx': '0',
+        'sfzx': '1',    #是否在校
         'sfjcwhry': '0',
         'sfjchbry': '0',
         'sfcyglq': '0',
