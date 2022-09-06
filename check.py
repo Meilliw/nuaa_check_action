@@ -124,6 +124,7 @@ def get_uid_id(cookies):
 def check(cookies, geo_api_info, id, uid):
     # Post的data，如果你是勇士可以尝试给这个打上注释，老谜语人了，看不懂ヾ(•ω•`)o
     data = {
+        'njrddz':'慧2 50204',
         'fxjrcjtw':'1',
         'zrwjtw':'1',
         'jrzjtw':'1',   #今日早间体温
